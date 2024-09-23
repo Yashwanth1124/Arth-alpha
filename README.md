@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Text Manipulation Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This Text Manipulation Tool is a React application that allows users to input text, perform string replacements, and view real-time statistics about the text. The application is designed for ease of use and includes various features to enhance user experience.
 
-## Available Scripts
+## Features
+- **Single Text Area**: Users can input and edit text in a single text area.
+- **String Replacement**: Users can search for a specific string and replace it with another string directly in the text area.
+- **Highlighting Replacements**: The replaced string is highlighted within the text area for easy visibility.
+- **Unique Word Count**: The application calculates and displays the number of unique words in the input text.
+- **Character Count**: It provides the count of characters, excluding spaces and punctuation.
+- **Responsive Design**: The application is fully responsive and adjusts to different screen sizes.
+- **Attractive UI**: The application features an attractive user interface with styled buttons, input fields, and alerts.
+- **Alert Notifications**: Users receive visual alerts for success, error, warning, and informational messages related to their actions.
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+### Prerequisites
+- Node.js (v12 or higher)
+- npm (Node Package Manager)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd TextManipulationTool
+2. Install dependencies:
+    npm install
+3. Running the Application
+    Start the development server:
+    npm start
+4. Open your web browser and navigate to http://localhost:3000 to see the application in action.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Usage
+Input Text: Type or paste your text into the provided text area.
+Search and Replace: Enter the string you want to search for in the "Search string" input. Enter the replacement string in the "Replace with" input, then click the "Replace All" button.
+View Statistics: The application automatically calculates and displays the number of unique words and the character count.
+Highlighted Text: The replaced text will be highlighted in the text area.
+Styling
+The application includes a stylish design with:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Radiant buttons that change color on hover.
+Responsive layout adjustments for different devices.
+Alerts for various statuses related to user actions.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### `npm run build`
+Acknowledgments
+This application was built using React.js and demonstrates practical applications of state management and user interaction.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feel free to modify any sections or add specific details about your project!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
